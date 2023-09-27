@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Carlson Antique";
+  font-style: normal;
+  src: local("Carlson Antique"),
+    url("./fonts/Carlson Antique/caslon-antique.bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Carlson Antique";
+  font-style: italic;
+  src: local("Carlson Antique"),
+    url("./fonts/Carlson Antique/caslon-antique.bolditalic.ttf")
+      format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Carlson Antique";
+  font-style: normal;
+  src: local("Carlson Antique"),
+    url("./fonts/Carlson Antique/caslon-antique.regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Carlson Antique";
+  font-style: italic;
+  src: local("Carlson Antique"),
+    url("./fonts/Carlson Antique/caslon-antique.italic.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "BlackChancery";
+  font-style: normal;
+  src: local("BlackChancery"),
+    url("./fonts/BlackChancery/blackchancery.regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@media screen and (max-width: 620px) {
+  .demo-book {
+    zoom: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .demo-book {
+    zoom: 60%;
+  }
+}
